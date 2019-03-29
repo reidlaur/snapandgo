@@ -1,0 +1,151 @@
+/************
+reference - https://www.sitepoint.com/5-ways-to-delight-with-ux-details-combining-gifs-and-css/
+************/
+
+.play-GIF-on-hover {
+	margin:auto;
+	display: block;
+    width: 550px;
+    height:320px;
+    text-align: center;
+    background-image: url('images/snap.png');
+    background-size: 100%;
+    background-position: center center;
+}
+.play-GIF-on-hover:hover {
+    background-image: url('images/snap.gif');
+}
+
+#title{	
+	margin-top:10%;
+	text-align: center;
+	font-family: "Roboto", "Verdana";
+	font-size: 3em;
+  	display: block;
+  	color: #ed1c24;
+}
+
+#t2{
+	margin-top:15%;
+	text-align: center;
+	font-family: "Roboto", "Verdana";
+	font-size: 3em;
+  	display: block;
+  	color: #ed1c24;
+}
+
+.play-GIF-on-hover2 {
+	margin:auto;
+	display: block;
+    width: 550px;
+    height:320px;
+    text-align: center;
+    background-image: url('images/cards.png');
+    background-size: 100%;
+    background-position: center center;
+}
+.play-GIF-on-hover2:hover {
+    background-image: url('images/cards.gif');
+}
+
+#card{
+	margin:auto;
+	display: block;
+    width: 550px;
+    text-align: center;
+}
+/*
+hr{
+	margin-top: 10%;
+	height:3px;
+	
+	background-color:#5cbbe2;
+	border: 0 none;
+}*/
+
+#l1{
+	margin-top: 15%;
+	margin-bottom: 8%;
+	height:3px;
+	background-color:#5cbbe2;
+	border: 0 none;
+}
+
+#l2{
+	margin-top: 8%;
+	height:3px;
+	background-color:#5cbbe2;
+	border: 0 none;
+}
+
+#l3{
+	margin-top: 20%;
+	margin-bottom: 10%;
+	height:3px;
+	background-color:#5cbbe2;
+	border: 0 none;
+}
+
+#l4{
+	margin-top: 20%;
+	margin-bottom: 10%;
+	height:3px;
+	background-color:#5cbbe2;
+	border: 0 none;
+}
+
+.p1{
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	font-family: "Roboto", "Verdana";
+	font-size: 1.2em;
+  	display: block;
+  	color: #ed1c24;
+  	/*color: #5cbbe2;*/
+}
+
+/*****
+reference - https://stackoverflow.com/questions/9058425/how-to-bold-words-within-a-paragraph-in-html-css
+*****/
+
+span{
+	font-weight: bold;
+}
+
+
+@media (max-width: 650px) {
+
+.play-GIF-on-hover {
+    width: 300px;
+    height:200px;
+}
+
+#title{ font-size: 1em;
+	}
+
+#t2{ font-size: 1em;
+	}
+
+.play-GIF-on-hover2 {
+    width: 300px;
+    height:200px;
+}
+
+.p1{
+	font-size: 0.5em;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+	}
